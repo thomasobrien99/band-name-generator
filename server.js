@@ -50,8 +50,6 @@ app.get("/", function(req, res){
   res.sendFile('/Users/thoma_000/Desktop/Projects2/CodeFellows F2/band-name-generator/index.html')
 });
 app.post("/adjective", function(req, res) {
-  // Process the data received, and send response
-  //res.json(postWord(req.body));
   res.json(postWord(req.body.word, adjectives));
 });
 

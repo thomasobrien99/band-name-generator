@@ -1,3 +1,6 @@
+/*
+This is a randomString generator, to be added later.
+
 function randomString(){
     var possibleLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     possibleLetters += possibleLetters.toLowerCase();
@@ -10,15 +13,7 @@ function randomString(){
     }
     return randomized;
   }
-  $("p:nth-of-type(4)").addClass("nth");
-//$("button").click(function(){
-//  $.get("http://localhost:3000/adjective", 
-//    function (response) 
-//    {
-//      $("#adjective").text(response);
-//    }
-//  ))};
-//);
+*/
 
 $("button").click(function() { 
    $.get("http://localhost:3000/adjective", 
